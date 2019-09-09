@@ -1,0 +1,839 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>表单 · JavaScript学习</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Veng">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="拖放.html" />
+    
+    
+    <link rel="prev" href="字符实体.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="基础.html">
+            
+                <a href="基础.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="html元素.html">
+            
+                <a href="html元素.html">
+            
+                    
+                    html元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="html属性.html">
+            
+                <a href="html属性.html">
+            
+                    
+                    html属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="文本格式化.html">
+            
+                <a href="文本格式化.html">
+            
+                    
+                    文本格式化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="链接.html">
+            
+                <a href="链接.html">
+            
+                    
+                    链接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="图像.html">
+            
+                <a href="图像.html">
+            
+                    
+                    图像
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="表格.html">
+            
+                <a href="表格.html">
+            
+                    
+                    表格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="列表.html">
+            
+                <a href="列表.html">
+            
+                    
+                    列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="块.html">
+            
+                <a href="块.html">
+            
+                    
+                    块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="路径.html">
+            
+                <a href="路径.html">
+            
+                    
+                    路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="头部head.html">
+            
+                <a href="头部head.html">
+            
+                    
+                    头部head
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="字符实体.html">
+            
+                <a href="字符实体.html">
+            
+                    
+                    字符实体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.12" data-path="表单.html">
+            
+                <a href="表单.html">
+            
+                    
+                    表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="拖放.html">
+            
+                <a href="拖放.html">
+            
+                    
+                    拖放
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="web存储.html">
+            
+                <a href="web存储.html">
+            
+                    
+                    web存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >表单</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8868;&#x5355;">&#x8868;&#x5355;</h1>
+<h3 id="form-&#x5143;&#x7D20;"><code>&lt;form&gt;</code> &#x5143;&#x7D20;</h3>
+<p>HTML &#x8868;&#x5355;&#x7528;&#x4E8E;&#x6536;&#x96C6;&#x7528;&#x6237;&#x8F93;&#x5165;</p>
+<h3 id="action-&#x5C5E;&#x6027;">Action &#x5C5E;&#x6027;</h3>
+<p><em>action &#x5C5E;&#x6027;</em>&#x5B9A;&#x4E49;&#x5728;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#x65F6;&#x6267;&#x884C;&#x7684;&#x52A8;&#x4F5C;&#x3002;&#x5411;&#x670D;&#x52A1;&#x5668;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#x7684;&#x901A;&#x5E38;&#x505A;&#x6CD5;&#x662F;&#x4F7F;&#x7528;&#x63D0;&#x4EA4;&#x6309;&#x94AE;&#x3002;&#x901A;&#x5E38;&#xFF0C;&#x8868;&#x5355;&#x4F1A;&#x88AB;&#x63D0;&#x4EA4;&#x5230; web &#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x7F51;&#x9875;&#x3002;&#x5728;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x4E2D;&#xFF0C;&#x6307;&#x5B9A;&#x4E86;&#x67D0;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x811A;&#x672C;&#x6765;&#x5904;&#x7406;&#x88AB;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;action_page.php&quot;</span>&gt;</span>
+</code></pre>
+<p>&#x5982;&#x679C;&#x7701;&#x7565; action &#x5C5E;&#x6027;&#xFF0C;&#x5219; action &#x4F1A;&#x88AB;&#x8BBE;&#x7F6E;&#x4E3A;&#x5F53;&#x524D;&#x9875;&#x9762;&#x3002;</p>
+<h3 id="method-&#x5C5E;&#x6027;">Method &#x5C5E;&#x6027;</h3>
+<p><em>method &#x5C5E;&#x6027;</em>&#x89C4;&#x5B9A;&#x5728;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#x65F6;&#x6240;&#x7528;&#x7684; HTTP &#x65B9;&#x6CD5;&#xFF08;<em>GET</em> &#x6216; <em>POST</em>&#xFF09;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;action_page.php&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;GET&quot;</span>&gt;</span>
+</code></pre>
+<h3 id="name-&#x5C5E;&#x6027;">Name &#x5C5E;&#x6027;</h3>
+<p>&#x5982;&#x679C;&#x8981;&#x6B63;&#x786E;&#x5730;&#x88AB;&#x63D0;&#x4EA4;&#xFF0C;&#x6BCF;&#x4E2A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x5FC5;&#x987B;&#x8BBE;&#x7F6E;&#x4E00;&#x4E2A; name &#x5C5E;&#x6027;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;action_page.php&quot;</span>&gt;</span>
+First name:<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Mickey&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+Last name:<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;lastname&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Mouse&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Submit&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h3 id="input-&#x5143;&#x7D20;"><code>&lt;input&gt;</code> &#x5143;&#x7D20;</h3>
+<p>&#x6700;&#x91CD;&#x8981;&#x7684;&#x8868;&#x5355;&#x5143;&#x7D20;&#x662F; <em><code>&lt;input&gt;</code></em> &#x5143;&#x7D20;&#x3002;</p>
+<p><code>&lt;input&gt;</code>&#x5143;&#x7D20;&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684; <em>type</em> &#x5C5E;&#x6027;&#xFF0C;&#x53EF;&#x4EE5;&#x53D8;&#x5316;&#x4E3A;&#x591A;&#x79CD;&#x5F62;&#x6001;:</p>
+<table>
+<thead>
+<tr>
+<th>&#x8F93;&#x5165;&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text</td>
+<td>&#x5B9A;&#x4E49;&#x4F9B;<em>&#x6587;&#x672C;&#x8F93;&#x5165;</em>&#x7684;&#x5355;&#x884C;&#x8F93;&#x5165;&#x5B57;&#x6BB5;</td>
+</tr>
+<tr>
+<td>password</td>
+<td>&#x5B9A;&#x4E49;<em>&#x5BC6;&#x7801;&#x5B57;&#x6BB5;</em>,&#x5B57;&#x7B26;&#x4F1A;&#x88AB;&#x505A;&#x63A9;&#x7801;&#x5904;&#x7406;&#xFF08;&#x663E;&#x793A;&#x4E3A;&#x661F;&#x53F7;&#x6216;&#x5B9E;&#x5FC3;&#x5706;&#xFF09;</td>
+</tr>
+<tr>
+<td>radio</td>
+<td>&#x5B9A;&#x4E49;&#x5355;&#x9009;&#x6309;&#x94AE;</td>
+</tr>
+<tr>
+<td>checkbox</td>
+<td>&#x5B9A;&#x4E49;&#x590D;&#x9009;&#x6846;</td>
+</tr>
+<tr>
+<td>button</td>
+<td>&#x5B9A;&#x4E49;&#x6309;&#x94AE;</td>
+</tr>
+<tr>
+<td>submit</td>
+<td>&#x5B9A;&#x4E49;<em>&#x63D0;&#x4EA4;</em>&#x8868;&#x5355;&#x6570;&#x636E;&#x81F3;<em>&#x8868;&#x5355;&#x5904;&#x7406;&#x7A0B;&#x5E8F;</em>&#x7684;&#x6309;&#x94AE;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> &gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> &gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>text:
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>password:
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;password&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>sex:
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;female&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;radio&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;sex&quot;</span>&gt;</span>Female
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;male&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;radio&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;sex&quot;</span>&gt;</span>Male
+        <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+            &#x590D;&#x9009;&#x6846;&#xFF1A;
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;like&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span>&gt;</span>basketball
+            <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;like&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span>&gt;</span>football
+        <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Submit&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<form>
+    <div>
+        <label>text:
+            <input type="text">
+        </label>
+    </div>
+    <div>
+        <label>password:
+            <input type="password">
+        </label>
+    </div>
+    <div>
+        <label>sex:
+            <input value="female" type="radio" name="sex">Female
+            <input value="male" type="radio" name="sex">Male
+        </label>
+    </div>
+    <div>
+        <label>
+            &#x590D;&#x9009;&#x6846;&#xFF1A;
+            <input name="like" type="checkbox">basketball
+            <input name="like" type="checkbox">football
+        </label>
+    </div>
+    <div>
+        <input value="Submit" type="button">
+    </div>
+</form>
+
+<p>HTML5&#x65B0;&#x589E;&#x7684;&#x8F93;&#x5165;&#x7C7B;&#x578B;&#xFF1A;</p>
+<ul>
+<li><p>color:&#x9009;&#x989C;&#x8272;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;color&quot;</span>&gt;</span>
+</code></pre>
+<form>
+  <label>color:</label>
+    <input type="color">
+</form>
+</li>
+<li><p>date,datetime-local:&#x9009;&#x65E5;&#x671F;&#x5E74;&#x6708;&#x65E5;&#xFF0C;&#x65E5;&#x671F;&#x65F6;&#x95F4;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;date&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;datetime-local&quot;</span>&gt;</span>
+</code></pre>
+<p><img src="assets/1567997616117.png" alt="1567997616117"></p>
+<p>&#x5C1D;&#x8BD5;:</p>
+<form>
+    <input type="date">
+     <input type="datetime-local">
+</form>
+</li>
+<li><p>month:&#x9009;&#x62E9; &#x5E74;&#x6708;</p>
+<form>
+    <input type="month">
+</form>
+</li>
+<li><p>time:&#x9009;&#x62E9;&#x65F6;&#x95F4;</p>
+<form>
+    <input type="time">
+</form>
+</li>
+<li><p>week:&#x9009;&#x62E9;&#x5468;&#x548C;&#x5E74;</p>
+<form>
+    <input type="week">
+</form>
+</li>
+<li><p>number:&#x6570;&#x5B57;</p>
+<form>
+    <input type="number">
+</form>
+</li>
+<li><p>range:&#x6ED1;&#x52A8;&#x6761;</p>
+<form>
+    <input type="range">
+</form>
+
+</li>
+</ul>
+<h4 id="&#x8F93;&#x5165;&#x9650;&#x5236;">&#x8F93;&#x5165;&#x9650;&#x5236;</h4>
+<p>&#x8FD9;&#x91CC;&#x5217;&#x51FA;&#x4E86;&#x4E00;&#x4E9B;&#x5E38;&#x7528;&#x7684;&#x8F93;&#x5165;&#x9650;&#x5236;&#xFF08;&#x5176;&#x4E2D;&#x4E00;&#x4E9B;&#x662F; HTML5 &#x4E2D;&#x65B0;&#x589E;&#x7684;&#xFF09;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5C5E;&#x6027;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">disabled</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x5E94;&#x8BE5;&#x88AB;&#x7981;&#x7528;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">max</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x7684;&#x6700;&#x5927;&#x503C;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">maxlength</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x7684;&#x6700;&#x5927;&#x5B57;&#x7B26;&#x6570;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">min</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x7684;&#x6700;&#x5C0F;&#x503C;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">pattern</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x901A;&#x8FC7;&#x5176;&#x68C0;&#x67E5;&#x8F93;&#x5165;&#x503C;&#x7684;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">readonly</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x4E3A;&#x53EA;&#x8BFB;&#xFF08;&#x65E0;&#x6CD5;&#x4FEE;&#x6539;&#xFF09;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">required</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x662F;&#x5FC5;&#x9700;&#x7684;&#xFF08;&#x5FC5;&#x9700;&#x586B;&#x5199;&#xFF09;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">size</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x7684;&#x5BBD;&#x5EA6;&#xFF08;&#x4EE5;&#x5B57;&#x7B26;&#x8BA1;&#xFF09;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">step</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x7684;&#x5408;&#x6CD5;&#x6570;&#x5B57;&#x95F4;&#x9694;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left">value</td>
+<td style="text-align:left">&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x5B57;&#x6BB5;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="select&#x5143;&#x7D20;&#x4E0B;&#x62C9;&#x5217;&#x8868;">select&#x5143;&#x7D20;&#x4E0B;&#x62C9;&#x5217;&#x8868;</h3>
+<p><em><code>&lt;option&gt;</code></em> &#x5143;&#x7D20;&#x5B9A;&#x4E49;&#x5F85;&#x9009;&#x62E9;&#x7684;&#x9009;&#x9879;&#x3002;</p>
+<p>&#x5217;&#x8868;&#x901A;&#x5E38;&#x4F1A;&#x628A;&#x9996;&#x4E2A;&#x9009;&#x9879;&#x663E;&#x793A;&#x4E3A;&#x88AB;&#x9009;&#x9009;&#x9879;&#x3002;</p>
+<p>&#x60A8;&#x80FD;&#x591F;&#x901A;&#x8FC7;&#x6DFB;&#x52A0; selected &#x5C5E;&#x6027;&#x6765;&#x5B9A;&#x4E49;&#x9884;&#x5B9A;&#x4E49;&#x9009;&#x9879;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">select</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;cars&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;volvo&quot;</span>&gt;</span>Volvo<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;saab&quot;</span> <span class="hljs-attr">selected</span>&gt;</span>Saab<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;fiat&quot;</span>&gt;</span>Fiat<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;audi&quot;</span>&gt;</span>Audi<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+ <span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span>
+</code></pre>
+<select>
+    <option value="volvo">Volvo</option>
+    <option value="saab" selected>Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+</select>
+
+<h3 id="textarea&#x5143;&#x7D20;"><code>&lt;textarea&gt;</code>&#x5143;&#x7D20;</h3>
+<p>&#x5B9A;&#x4E49;&#x591A;&#x884C;&#x8F93;&#x5165;&#x5B57;&#x6BB5;(&#x6587;&#x672C;&#x57DF;)</p>
+<p>row&#x4EE3;&#x8868;&#x663E;&#x793A;&#x884C;&#x6570;&#xFF0C;cols&#x4EE3;&#x8868;&#x663E;&#x793A;&#x5217;&#x6570;&#xFF0C;&#x4E5F;&#x53EF;&#x4E0D;&#x8BBE;&#x7F6E;.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;message&quot;</span> <span class="hljs-attr">rows</span>=<span class="hljs-string">&quot;4&quot;</span> <span class="hljs-attr">cols</span>=<span class="hljs-string">&quot;30&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
+</code></pre>
+<p><textarea rows="4" cols="30"></textarea></p>
+<h3 id="button&#x5143;&#x7D20;"><code>&lt;button&gt;</code>&#x5143;&#x7D20;</h3>
+<p>&#x5B9A;&#x4E49;&#x6309;&#x94AE;&#xFF0C;&#x4E4B;&#x524D;&#x7684; input &#x7684;type&#x8BBE;&#x7F6E;&#x4E3A;button&#x4E5F;&#x80FD;&#x5B9A;&#x4E49;&#x6309;&#x94AE;&#x3002;</p>
+<h3 id="html5&#x7684;&#x8868;&#x5355;&#x5C5E;&#x6027;">HTML5&#x7684;&#x8868;&#x5355;&#x5C5E;&#x6027;</h3>
+<h4 id="form--inputautocomplete-&#x5C5E;&#x6027;"><code>&lt;form&gt; / &lt;input&gt;</code>autocomplete &#x5C5E;&#x6027;</h4>
+<p>autocomplete &#x5C5E;&#x6027;&#x89C4;&#x5B9A; form &#x6216; input &#x57DF;&#x5E94;&#x8BE5;&#x62E5;&#x6709;&#x81EA;&#x52A8;&#x5B8C;&#x6210;&#x529F;&#x80FD;&#x3002;</p>
+<p>&#x5F53;&#x7528;&#x6237;&#x5728;&#x81EA;&#x52A8;&#x5B8C;&#x6210;&#x57DF;&#x4E2D;&#x5F00;&#x59CB;&#x8F93;&#x5165;&#x65F6;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x5E94;&#x8BE5;&#x5728;&#x8BE5;&#x57DF;&#x4E2D;&#x663E;&#x793A;&#x586B;&#x5199;&#x7684;&#x9009;&#x9879;&#x3002;</p>
+<p><strong>&#x63D0;&#x793A;:</strong> autocomplete &#x5C5E;&#x6027;&#x6709;&#x53EF;&#x80FD;&#x5728; form&#x5143;&#x7D20;&#x4E2D;&#x662F;&#x5F00;&#x542F;&#x7684;&#xFF0C;&#x800C;&#x5728;input&#x5143;&#x7D20;&#x4E2D;&#x662F;&#x5173;&#x95ED;&#x7684;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-form.php&quot;</span> <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;on&quot;</span>&gt;</span>
+First name:<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+Last name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;lname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+E-mail: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;email&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;email&quot;</span> <span class="hljs-attr">autocomplete</span>=<span class="hljs-string">&quot;off&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h4 id="form-novalidate-&#x5C5E;&#x6027;"><code>&lt;form&gt;</code> novalidate &#x5C5E;&#x6027;</h4>
+<p>novalidate &#x5C5E;&#x6027;&#x662F;&#x4E00;&#x4E2A; boolean(&#x5E03;&#x5C14;) &#x5C5E;&#x6027;.</p>
+<p>novalidate &#x5C5E;&#x6027;&#x89C4;&#x5B9A;&#x5728;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#x65F6;&#x4E0D;&#x5E94;&#x8BE5;&#x9A8C;&#x8BC1; form &#x6216; input &#x57DF;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-form.php&quot;</span> <span class="hljs-attr">novalidate</span>&gt;</span>
+  E-mail: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;email&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;user_email&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h4 id="input-autofocus-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> autofocus &#x5C5E;&#x6027;</h4>
+<p>autofocus &#x5C5E;&#x6027;&#x662F;&#x4E00;&#x4E2A; boolean &#x5C5E;&#x6027;.</p>
+<p>autofocus &#x5C5E;&#x6027;&#x89C4;&#x5B9A;&#x5728;&#x9875;&#x9762;&#x52A0;&#x8F7D;&#x65F6;&#xFF0C;&#x57DF;&#x81EA;&#x52A8;&#x5730;&#x83B7;&#x5F97;&#x7126;&#x70B9;&#x3002;</p>
+<pre><code class="lang-html">First name:<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span> <span class="hljs-attr">autofocus</span>&gt;</span>
+</code></pre>
+<h4 id="input-form-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> form &#x5C5E;&#x6027;</h4>
+<p>form &#x5C5E;&#x6027;&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x57DF;&#x6240;&#x5C5E;&#x7684;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x8868;&#x5355;&#x3002;</p>
+<p><strong>&#x63D0;&#x793A;:</strong>&#x5982;&#x9700;&#x5F15;&#x7528;&#x4E00;&#x4E2A;&#x4EE5;&#x4E0A;&#x7684;&#x8868;&#x5355;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528;&#x7A7A;&#x683C;&#x5206;&#x9694;&#x7684;&#x5217;&#x8868;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-form.php&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;form1&quot;</span>&gt;</span>
+  First name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+
+Last name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;lname&quot;</span> <span class="hljs-attr">form</span>=<span class="hljs-string">&quot;form1&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="input-formaction-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> formaction &#x5C5E;&#x6027;</h4>
+<p>The formaction &#x5C5E;&#x6027;&#x7528;&#x4E8E;&#x63CF;&#x8FF0;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7684;URL&#x5730;&#x5740;.</p>
+<p>The formaction &#x5C5E;&#x6027;&#x4F1A;&#x8986;&#x76D6;<code>&lt;form&gt;</code>&#x5143;&#x7D20;&#x4E2D;&#x7684;action&#x5C5E;&#x6027;.</p>
+<p><strong>&#x6CE8;&#x610F;:</strong> The formaction &#x5C5E;&#x6027;&#x7528;&#x4E8E; type=&quot;submit&quot; &#x548C; type=&quot;image&quot;.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-form.php&quot;</span>&gt;</span>
+  First name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  Last name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;lname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">formaction</span>=<span class="hljs-string">&quot;demo-admin.php&quot;</span>
+  <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h4 id="input-formenctype-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> formenctype &#x5C5E;&#x6027;</h4>
+<p>formenctype &#x5C5E;&#x6027;&#x63CF;&#x8FF0;&#x4E86;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x5230;&#x670D;&#x52A1;&#x5668;&#x7684;&#x6570;&#x636E;&#x7F16;&#x7801; (&#x53EA;&#x5BF9;form&#x8868;&#x5355;&#x4E2D; method=&quot;post&quot; &#x8868;&#x5355;)</p>
+<p>formenctype &#x5C5E;&#x6027;&#x8986;&#x76D6; form &#x5143;&#x7D20;&#x7684; enctype &#x5C5E;&#x6027;&#x3002;</p>
+<p><strong>&#x4E3B;&#x8981;:</strong> &#x8BE5;&#x5C5E;&#x6027;&#x4E0E; type=&quot;submit&quot; &#x548C; type=&quot;image&quot; &#x914D;&#x5408;&#x4F7F;&#x7528;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-post_enctype.php&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span>&gt;</span>
+  First name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">formenctype</span>=<span class="hljs-string">&quot;multipart/form-data&quot;</span>
+  <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x4EE5; Multipart/form-data &#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h2 id="input-formmethod-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> formmethod &#x5C5E;&#x6027;</h2>
+<p>formmethod &#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7684;&#x65B9;&#x5F0F;&#x3002;</p>
+<p>formmethod &#x5C5E;&#x6027;&#x8986;&#x76D6;&#x4E86; <code>&lt;form&gt;</code> &#x5143;&#x7D20;&#x7684; method &#x5C5E;&#x6027;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-form.php&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;get&quot;</span>&gt;</span>
+First name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+Last name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;lname&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">formmethod</span>=<span class="hljs-string">&quot;post&quot;</span> <span class="hljs-attr">formaction</span>=<span class="hljs-string">&quot;demo-post.php&quot;</span>
+<span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x4F7F;&#x7528; POST &#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h4 id="input-formnovalidate-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> formnovalidate &#x5C5E;&#x6027;</h4>
+<p>novalidate &#x5C5E;&#x6027;&#x662F;&#x4E00;&#x4E2A; boolean &#x5C5E;&#x6027;.</p>
+<p>novalidate&#x5C5E;&#x6027;&#x63CF;&#x8FF0;&#x4E86; <code>&lt;input&gt;</code> &#x5143;&#x7D20;&#x5728;&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x65F6;&#x65E0;&#x9700;&#x88AB;&#x9A8C;&#x8BC1;&#x3002;</p>
+<p>formnovalidate &#x5C5E;&#x6027;&#x4F1A;&#x8986;&#x76D6; <code>&lt;form&gt;</code> &#x5143;&#x7D20;&#x7684;novalidate&#x5C5E;&#x6027;.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;demo-form.php&quot;</span>&gt;</span>
+  E-mail: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;email&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;userid&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x63D0;&#x4EA4;&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">formnovalidate</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&#x4E0D;&#x9A8C;&#x8BC1;&#x63D0;&#x4EA4;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<h4 id="input-height-&#x548C;-width-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> height &#x548C; width &#x5C5E;&#x6027;</h4>
+<p>height &#x548C; width &#x5C5E;&#x6027;&#x89C4;&#x5B9A;&#x7528;&#x4E8E; image &#x7C7B;&#x578B;&#x7684; <code>&lt;input&gt;</code> &#x6807;&#x7B7E;&#x7684;&#x56FE;&#x50CF;&#x9AD8;&#x5EA6;&#x548C;&#x5BBD;&#x5EA6;&#x3002;</p>
+<h4 id="inputlist-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code>list &#x5C5E;&#x6027;</h4>
+<p>list &#x5C5E;&#x6027;&#x89C4;&#x5B9A;&#x8F93;&#x5165;&#x57DF;&#x7684; datalist&#x3002;datalist &#x662F;&#x8F93;&#x5165;&#x57DF;&#x7684;&#x9009;&#x9879;&#x5217;&#x8868;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">list</span>=<span class="hljs-string">&quot;browsers&quot;</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">datalist</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;browsers&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Internet Explorer&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Firefox&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Chrome&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Opera&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Safari&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">datalist</span>&gt;</span>
+</code></pre>
+<h4 id="input-min-&#x548C;-max-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> min &#x548C; max &#x5C5E;&#x6027;</h4>
+<p>min&#x3001;max &#x548C; step &#x5C5E;&#x6027;&#x7528;&#x4E8E;&#x4E3A;&#x5305;&#x542B;&#x6570;&#x5B57;&#x6216;&#x65E5;&#x671F;&#x7684; input &#x7C7B;&#x578B;&#x89C4;&#x5B9A;&#x9650;&#x5B9A;&#xFF08;&#x7EA6;&#x675F;&#xFF09;&#x3002;</p>
+<pre><code class="lang-html">Enter a date before 1980-01-01:
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;date&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;bday&quot;</span> <span class="hljs-attr">max</span>=<span class="hljs-string">&quot;1979-12-31&quot;</span>&gt;</span>
+
+Enter a date after 2000-01-01:
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;date&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;bday&quot;</span> <span class="hljs-attr">min</span>=<span class="hljs-string">&quot;2000-01-02&quot;</span>&gt;</span>
+
+Quantity (between 1 and 5):
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;number&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;quantity&quot;</span> <span class="hljs-attr">min</span>=<span class="hljs-string">&quot;1&quot;</span> <span class="hljs-attr">max</span>=<span class="hljs-string">&quot;5&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="input-multiple-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> multiple &#x5C5E;&#x6027;</h4>
+<p>multiple &#x5C5E;&#x6027;&#x662F;&#x4E00;&#x4E2A; boolean &#x5C5E;&#x6027;.</p>
+<p>multiple &#x5C5E;&#x6027;&#x89C4;&#x5B9A;<code>&lt;input&gt;</code> &#x5143;&#x7D20;&#x4E2D;&#x53EF;&#x9009;&#x62E9;&#x591A;&#x4E2A;&#x503C;&#x3002;</p>
+<pre><code class="lang-html">Select images: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;img&quot;</span> <span class="hljs-attr">multiple</span>&gt;</span>
+</code></pre>
+<p>&#x53EA;&#x80FD;&#x4E00;&#x6B21;&#x9009;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x5982;&#x679C;&#x7B2C;&#x4E8C;&#x6B21;&#x9009;&#x4F1A;&#x8986;&#x76D6;&#x4E0A;&#x4E00;&#x6B21;&#x9009;&#x62E9;&#x7684;&#x3002;</p>
+<h4 id="input-pattern-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> pattern &#x5C5E;&#x6027;</h4>
+<p>pattern &#x5C5E;&#x6027;&#x63CF;&#x8FF0;&#x4E86;&#x4E00;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7528;&#x4E8E;&#x9A8C;&#x8BC1; <code>&lt;input&gt;</code> &#x5143;&#x7D20;&#x7684;&#x503C;&#x3002;</p>
+<pre><code class="lang-html">Country code: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;country_code&quot;</span> <span class="hljs-attr">pattern</span>=<span class="hljs-string">&quot;[A-Za-z]{3}&quot;</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&quot;Three letter country code&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="input-placeholder-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code> placeholder &#x5C5E;&#x6027;</h4>
+<p>placeholder &#x5C5E;&#x6027;&#x63D0;&#x4F9B;&#x4E00;&#x79CD;&#x63D0;&#x793A;&#xFF08;hint&#xFF09;&#xFF0C;&#x63CF;&#x8FF0;&#x8F93;&#x5165;&#x57DF;&#x6240;&#x671F;&#x5F85;&#x7684;&#x503C;&#x3002;</p>
+<p>&#x7B80;&#x77ED;&#x7684;&#x63D0;&#x793A;&#x5728;&#x7528;&#x6237;&#x8F93;&#x5165;&#x503C;&#x524D;&#x4F1A;&#x663E;&#x793A;&#x5728;&#x8F93;&#x5165;&#x57DF;&#x4E0A;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;fname&quot;</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;First name&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="inputrequired-&#x5C5E;&#x6027;"><code>&lt;input&gt;</code>required &#x5C5E;&#x6027;</h4>
+<p>required &#x5C5E;&#x6027;&#x662F;&#x4E00;&#x4E2A; boolean &#x5C5E;&#x6027;.</p>
+<p>required &#x5C5E;&#x6027;&#x89C4;&#x5B9A;&#x5FC5;&#x987B;&#x5728;&#x63D0;&#x4EA4;&#x4E4B;&#x524D;&#x586B;&#x5199;&#x8F93;&#x5165;&#x57DF;&#xFF08;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&#xFF09;&#x3002;</p>
+<pre><code class="lang-html">Username: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;usrname&quot;</span> <span class="hljs-attr">required</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="字符实体.html" class="navigation navigation-prev " aria-label="Previous page: 字符实体">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="拖放.html" class="navigation navigation-next " aria-label="Next page: 拖放">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"表单","level":"1.2.12","depth":2,"next":{"title":"拖放","level":"1.2.13","depth":2,"path":"基础/拖放.md","ref":"基础/拖放.md","articles":[]},"previous":{"title":"字符实体","level":"1.2.11","depth":2,"path":"基础/字符实体.md","ref":"基础/字符实体.md","articles":[]},"dir":"ltr"},"config":{"plugins":["lunr","pageview-count","chapter-fold","back-to-top-button","code","hide-element","-sharing","sharing-plus","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Veng","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JavaScript学习","language":"zh-hans","gitbook":"*","description":"javaScript的学习笔记"},"file":{"path":"基础/表单.md","mtime":"2019-09-09T08:46:17.578Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-09T08:30:42.474Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
