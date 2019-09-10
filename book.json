@@ -1,7 +1,7 @@
 {
-    "title": "JavaScript学习",
+    "title": "HTML笔记",
     "author": "Veng",
-    "description": "javaScript的学习笔记",
+    "description": "HTML的学习笔记",
     "language": "zh-hans",
     "plugins": ["lunr", "pageview-count", "chapter-fold", "back-to-top-button", "code", "hide-element", "-sharing", "sharing-plus"],
     "pluginsConfig": {
