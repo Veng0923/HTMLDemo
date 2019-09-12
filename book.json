@@ -3,7 +3,7 @@
     "author": "Veng",
     "description": "HTML的学习笔记",
     "language": "zh-hans",
-    "plugins": ["lunr", "pageview-count", "chapter-fold", "back-to-top-button", "code", "hide-element", "-sharing", "sharing-plus"],
+    "plugins": ["lunr", "pageview-count", "chapter-fold", "back-to-top-button", "code", "hide-element", "-sharing", "sharing-plus","tbfed-pagefooter"],
     "pluginsConfig": {
         "hide-element": {
             "elements": [".gitbook-link"]
