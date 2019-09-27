@@ -35,6 +35,16 @@ title 元素在所有 HTML/XHTML 文档中都是必需的。
 </head>
 ```
 
+还有用其更改**标题栏的图标**,如：
+
+```html
+<link rel='icon' href='favicon.ico'/>
+<!-- or -->
+<link rel='shortcut icon' href='favicon.ico'/>
+```
+
+<font color=red>注意</font>：这里的favicon必须是16$$\times$$*16或者32*$$\times$$32的，必须是8位色或者24位色的，格式必须是png或者ico或者gif。
+
 ### HTML `<style>` 元素
 
 `<style>` 标签用于为 HTML 文档定义样式信息。
