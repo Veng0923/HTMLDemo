@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>表格 · HTML笔记</title>
+        <title>事件 · HTML笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -77,10 +77,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="列表.html" />
     
-    
-    <link rel="prev" href="图像.html" />
+    <link rel="prev" href="web存储.html" />
     
 
     </head>
@@ -201,7 +199,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.6" data-path="表格.html">
+        <li class="chapter " data-level="1.2.6" data-path="表格.html">
             
                 <a href="表格.html">
             
@@ -318,7 +316,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.15" data-path="事件.html">
+        <li class="chapter active" data-level="1.2.15" data-path="事件.html">
             
                 <a href="事件.html">
             
@@ -366,7 +364,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >表格</a>
+        <a href=".." >事件</a>
     </h1>
 </div>
 
@@ -381,93 +379,18 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x8868;&#x683C;">&#x8868;&#x683C;</h1>
-<p>&#x8868;&#x683C;&#x7531; <code>&lt;table&gt;</code> &#x6807;&#x7B7E;&#x6765;&#x5B9A;&#x4E49;&#x3002;&#x6BCF;&#x4E2A;&#x8868;&#x683C;&#x5747;&#x6709;&#x82E5;&#x5E72;&#x884C;&#xFF08;&#x7531; <code>&lt;tr&gt;</code> &#x6807;&#x7B7E;&#x5B9A;&#x4E49;&#xFF09;&#xFF0C;&#x6BCF;&#x884C;&#x88AB;&#x5206;&#x5272;&#x4E3A;&#x82E5;&#x5E72;&#x5355;&#x5143;&#x683C;&#xFF08;&#x7531; <code>&lt;td&gt;</code>&#x6807;&#x7B7E;&#x5B9A;&#x4E49;&#xFF09;&#x3002;&#x5B57;&#x6BCD; td &#x6307;&#x8868;&#x683C;&#x6570;&#x636E;&#xFF08;table data&#xFF09;&#xFF0C;&#x5373;&#x6570;&#x636E;&#x5355;&#x5143;&#x683C;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x6570;&#x636E;&#x5355;&#x5143;&#x683C;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x6587;&#x672C;&#x3001;&#x56FE;&#x7247;&#x3001;&#x5217;&#x8868;&#x3001;&#x6BB5;&#x843D;&#x3001;&#x8868;&#x5355;&#x3001;&#x6C34;&#x5E73;&#x7EBF;&#x3001;&#x8868;&#x683C;&#x7B49;&#x7B49;&#x3002;</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>row 1, cell 1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>row 1, cell 2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>row 2, cell 1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>row 2, cell 2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+                                <h1 id="&#x4E8B;&#x4EF6;">&#x4E8B;&#x4EF6;</h1>
+<h2 id="window&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;">window&#x4E8B;&#x4EF6;&#x5C5E;&#x6027;</h2>
+<h3 id="onload&#x4E8B;&#x4EF6;">onload&#x4E8B;&#x4EF6;</h3>
+<p>&#x9875;&#x9762;&#x7ED3;&#x675F;&#x52A0;&#x8F7D;&#x4E4B;&#x540E;&#x89E6;&#x53D1;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">onload</span>=<span class="hljs-string">&quot;load()&quot;</span>&gt;</span>
 </code></pre>
-<p><img src="assets/1567762543134.png" alt="1567762543134"></p>
-<h3 id="&#x8868;&#x683C;&#x548C;&#x8FB9;&#x6846;&#x5C5E;&#x6027;">&#x8868;&#x683C;&#x548C;&#x8FB9;&#x6846;&#x5C5E;&#x6027;</h3>
-<p>&#x5982;&#x679C;&#x4E0D;&#x5B9A;&#x4E49;&#x8FB9;&#x6846;&#x5C5E;&#x6027;&#xFF0C;&#x8868;&#x683C;&#x5C06;&#x4E0D;&#x663E;&#x793A;&#x8FB9;&#x6846;&#x3002;&#x6709;&#x65F6;&#x8FD9;&#x5F88;&#x6709;&#x7528;&#xFF0C;&#x4F46;&#x662F;&#x5927;&#x591A;&#x6570;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x663E;&#x793A;&#x8FB9;&#x6846;&#x3002;</p>
-<p>&#x4F7F;&#x7528;&#x8FB9;&#x6846;&#x5C5E;&#x6027;&#x6765;&#x663E;&#x793A;&#x4E00;&#x4E2A;&#x5E26;&#x6709;&#x8FB9;&#x6846;&#x7684;&#x8868;&#x683C;&#xFF1A;</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">border</span>=<span class="hljs-string">&quot;1&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
-</code></pre>
-<p><img src="assets/1567762617787.png" alt="1567762617787"></p>
-<h3 id="&#x8868;&#x683C;&#x7684;&#x8868;&#x5934;">&#x8868;&#x683C;&#x7684;&#x8868;&#x5934;</h3>
-<p>&#x8868;&#x683C;&#x7684;&#x8868;&#x5934;&#x4F7F;&#x7528; <code>&lt;th&gt;</code> &#x6807;&#x7B7E;&#x8FDB;&#x884C;&#x5B9A;&#x4E49;&#x3002;</p>
-<p>&#x5927;&#x591A;&#x6570;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x628A;&#x8868;&#x5934;&#x663E;&#x793A;&#x4E3A;&#x7C97;&#x4F53;&#x5C45;&#x4E2D;&#x7684;&#x6587;&#x672C;&#xFF1A;</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Heading<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">th</span>&gt;</span>Another Heading<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>row 2, cell 1<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>row 2, cell 2<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
-</code></pre>
-<p><img src="assets/1567762718507.png" alt="1567762718507"></p>
-<h3 id="theadtbodytfoot"><code>&lt;thead&gt;,&lt;tbody&gt;,&lt;tfoot&gt;</code></h3>
-<p>thead &#x6807;&#x7B7E;&#x5B9A;&#x4E49;&#x8868;&#x683C;&#x7684;&#x8868;&#x5934;&#x3002;&#x8BE5;&#x6807;&#x7B7E;&#x7528;&#x4E8E;&#x7EC4;&#x5408; HTML &#x8868;&#x683C;&#x7684;&#x8868;&#x5934;&#x5185;&#x5BB9;&#x3002;tbody &#x5143;&#x7D20;&#x7528;&#x4E8E;&#x5BF9; HTML &#x8868;&#x683C;&#x4E2D;&#x7684;&#x4E3B;&#x4F53;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x5206;&#x7EC4;&#xFF0C;&#x800C; tfoot &#x5143;&#x7D20;&#x7528;&#x4E8E;&#x5BF9; HTML &#x8868;&#x683C;&#x4E2D;&#x7684;&#x8868;&#x6CE8;&#xFF08;&#x9875;&#x811A;&#xFF09;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x5206;&#x7EC4;&#x3002;</p>
-<h4 id="thead-&#x53EF;&#x9009;&#x5C5E;&#x6027;">thead &#x53EF;&#x9009;&#x5C5E;&#x6027;</h4>
-<table>
-<thead>
-<tr>
-<th>&#x5C5E;&#x6027;</th>
-<th>&#x503C;</th>
-<th>&#x63CF;&#x8FF0;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>align</td>
-<td>right ,left, center, justify, char</td>
-<td>&#x5B9A;&#x4E49; thead &#x5143;&#x7D20;&#x4E2D;&#x5185;&#x5BB9;&#x7684;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;</td>
-</tr>
-</tbody>
-</table>
-<h4 id="&#x5C5E;&#x6027;&#x503C;">&#x5C5E;&#x6027;&#x503C;</h4>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">&#x503C;</th>
-<th style="text-align:left">&#x63CF;&#x8FF0;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">left</td>
-<td style="text-align:left">&#x5DE6;&#x5BF9;&#x9F50;&#x5185;&#x5BB9;&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#x3002;</td>
-</tr>
-<tr>
-<td style="text-align:left">right</td>
-<td style="text-align:left">&#x53F3;&#x5BF9;&#x9F50;&#x5185;&#x5BB9;&#x3002;</td>
-</tr>
-<tr>
-<td style="text-align:left">center</td>
-<td style="text-align:left">&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;&#x5185;&#x5BB9;&#xFF08;th &#x5143;&#x7D20;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#x3002;</td>
-</tr>
-<tr>
-<td style="text-align:left">justify</td>
-<td style="text-align:left">&#x5BF9;&#x884C;&#x8FDB;&#x884C;&#x4F38;&#x5C55;&#xFF0C;&#x8FD9;&#x6837;&#x6BCF;&#x884C;&#x90FD;&#x53EF;&#x4EE5;&#x6709;&#x76F8;&#x7B49;&#x7684;&#x957F;&#x5EA6;&#xFF08;&#x5C31;&#x50CF;&#x5728;&#x62A5;&#x7EB8;&#x548C;&#x6742;&#x5FD7;&#x4E2D;&#xFF09;&#x3002;</td>
-</tr>
-<tr>
-<td style="text-align:left">char</td>
-<td style="text-align:left">&#x5C06;&#x5185;&#x5BB9;&#x5BF9;&#x51C6;&#x6307;&#x5B9A;&#x5B57;&#x7B26;&#x3002;</td>
-</tr>
-</tbody>
-</table>
+<h3 id="onafterprint&#x4E8B;&#x4EF6;">onafterprint&#x4E8B;&#x4EF6;</h3>
+<p>&#x6587;&#x6863;&#x6253;&#x5370;&#x4E4B;&#x540E;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#x3002;</p>
+<h3 id="onbeforeprint&#x4E8B;&#x4EF6;">onbeforeprint&#x4E8B;&#x4EF6;</h3>
+<p>&#x6587;&#x6863;&#x6253;&#x5370;&#x4E4B;&#x524D;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#x3002;</p>
 <footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">File Modify: 
-2019-09-12 15:02:00
+2019-09-12 15:28:26
 </span></footer>
                                 
                                 </section>
@@ -495,14 +418,10 @@
 
             
                 
-                <a href="图像.html" class="navigation navigation-prev " aria-label="Previous page: 图像">
+                <a href="web存储.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: web存储">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="列表.html" class="navigation navigation-next " aria-label="Next page: 列表">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -511,7 +430,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"表格","level":"1.2.6","depth":2,"next":{"title":"列表","level":"1.2.7","depth":2,"path":"基础/列表.md","ref":"基础/列表.md","articles":[]},"previous":{"title":"图像","level":"1.2.5","depth":2,"path":"基础/图像.md","ref":"基础/图像.md","articles":[]},"dir":"ltr"},"config":{"plugins":["lunr","pageview-count","chapter-fold","back-to-top-button","code","hide-element","-sharing","sharing-plus","tbfed-pagefooter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{},"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Veng","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HTML笔记","language":"zh-hans","gitbook":"*","description":"HTML的学习笔记"},"file":{"path":"基础/表格.md","mtime":"2019-09-12T07:02:00.909Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-27T06:48:34.086Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"事件","level":"1.2.15","depth":2,"previous":{"title":"web存储","level":"1.2.14","depth":2,"path":"基础/web存储.md","ref":"基础/web存储.md","articles":[]},"dir":"ltr"},"config":{"plugins":["lunr","pageview-count","chapter-fold","back-to-top-button","code","hide-element","-sharing","sharing-plus","tbfed-pagefooter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{},"chapter-fold":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Veng","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HTML笔记","language":"zh-hans","gitbook":"*","description":"HTML的学习笔记"},"file":{"path":"基础/事件.md","mtime":"2019-09-12T07:28:26.433Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-27T06:48:34.086Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
